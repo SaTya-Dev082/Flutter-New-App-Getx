@@ -24,4 +24,10 @@ class ServiceController extends GetxController {
       return Icons.light_mode_outlined;
     }
   }
+
+  int currentIndex = 0;
+  void changeIndex({required int index}) {
+    currentIndex = index;
+    update();
+  }
 }

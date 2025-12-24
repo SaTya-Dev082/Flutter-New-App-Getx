@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_app_getx_course/view/home_view.dart';
+import 'package:new_app_getx_course/view/screens/home_view.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
